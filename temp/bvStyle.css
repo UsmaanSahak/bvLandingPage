@@ -1,0 +1,48 @@
+html{
+	height:100vh;
+	width:100vw;
+	/*background:linear-gradient(to top right,rgb(230,230,255),rgb(255,255,255));*/
+	background:white;
+	overflow-x:hidden;
+}
+body {
+	margin:0px;
+}
+#main {
+	border:1px solid gray;
+	border-radius:5px;
+	width:400px;
+	height:200px;
+	padding:10px;
+	position:absolute;
+	margin:auto;
+	left:0;right:0;
+	/*background:linear-gradient(to top right,rgb(240,240,255),rgb(255,255,255));*/
+	background:white;
+	display:none;
+}
+p {
+	margin:0px;
+	font-family: Ubuntu;
+}
+h1,h2 {
+	font-family: Rubik;
+}
+#willHide {
+	position:absolute;
+	top:275px;
+	left:230px;
+	background:green;
+	width:230px;
+	height:20px;
+}
+#centerPiece {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+}
+.whiteText {
+	clear:right;
+	padding:5px;
+	text-align:center;
+}

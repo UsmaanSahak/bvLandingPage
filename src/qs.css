@@ -1,0 +1,88 @@
+html,body  {
+	width:100vw;
+	overflow-x:hidden;
+	margin:0px;
+	padding:0px;
+	background:#eeeeee;
+}
+#Intro {
+	height:500px;
+	width:100%;	
+	background-image:url("oneBranch.jpg");
+	border:5px solid #fff;
+}
+p {
+	font-family:Ubuntu;
+	text-align:center;
+	margin:0px;
+	color:#aaaaaa;
+}
+th {
+	font-family:Ubuntu;
+	color:#444444;
+	text-align:left;
+}
+
+table {
+	height:200px;
+}
+
+/*
+<div id="explainHardContainer">
+			<div id="explainContainer">
+			<img id="explainImg" src="src/explain.png"/>
+			</div>
+			<div id="hardContainer">
+			<img id="hardImg" src="src/bvhardware.png"/>
+			</div>
+			</div>
+*/
+#page {
+	width:700px;
+	position:absolute;
+	/*border:10px solid black;*/
+	border-radius:20px;
+	background:white;
+	margin:auto;
+	left:0px;
+	right:0px;
+	margin-top:100px;
+
+}
+.fit {
+	float:left;
+}
+.fitn {
+	float:left;
+	clear:both;
+}
+.full {
+	float:left;
+	width:100%;
+}
+#pic {
+	height:300px;
+}
+#logo {
+	height:200px;
+}
+#WelcomeText {
+	height:76px;
+	width:372px;
+	margin-top:10px;
+}
+#topGap {
+	width:100%;
+	height:10px;
+	background:#000000;
+}
+#brief {
+	font-family:Ubuntu;
+	color:#555555;
+	margin-top:10px;
+	padding:30px;
+}
+#TechStack {
+	padding:15px;
+}
+
