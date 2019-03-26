@@ -3,28 +3,30 @@ html,body  {
 	overflow-x:hidden;
 	margin:0px;
 	padding:0px;
-	background:#eeeeee;
 }
 #Intro {
-	height:500px;
-	width:100%;	
+	margin:auto;
+	margin-top:-5px;
+	width:490px;
 	background-image:url("oneBranch.jpg");
 	border:5px solid #fff;
+	height:90px;
 }
+#Content {
+	margin-top:10px;
+	display:flex;
+	align-items:center;
+}
+
+#contentContainer {
+	width:100vw;
+}
+
 p {
 	font-family:Ubuntu;
 	text-align:center;
 	margin:0px;
 	color:#aaaaaa;
-}
-th {
-	font-family:Ubuntu;
-	color:#444444;
-	text-align:left;
-}
-
-table {
-	height:200px;
 }
 
 /*
@@ -37,50 +39,75 @@ table {
 			</div>
 			</div>
 */
-#page {
+
+#card {
+	overflow:hidden;
+	width:100%;
+	margin:auto;
+	background:white;
+	margin-top:0px;
+}
+.slide {
+	width:100vw;
+	height:100vh;
+}
+.page {
 	width:700px;
-	position:absolute;
 	/*border:10px solid black;*/
-	border-radius:20px;
 	background:white;
 	margin:auto;
-	left:0px;
-	right:0px;
-	margin-top:100px;
 
+}
+.fitn {
+	float:left;
+	clear:center;
 }
 .fit {
 	float:left;
 }
-.fitn {
-	float:left;
-	clear:both;
-}
-.full {
-	float:left;
-	width:100%;
-}
+
+
 #pic {
-	height:300px;
 }
 #logo {
-	height:200px;
 }
 #WelcomeText {
-	height:76px;
-	width:372px;
-	margin-top:10px;
+	height:50px;
+	width:248px;
+	margin-top:4px;
+	line-height:20px;
+}
+#topBar {
+
+	width:100vw;
+	background:black;
+	height:50px;
 }
 #topGap {
 	width:100%;
 	height:10px;
 	background:#000000;
 }
+
 #brief {
 	font-family:Ubuntu;
 	color:#555555;
-	margin-top:10px;
 	padding:30px;
+	width:650px;
+
+	background:white;
+	margin:auto;
+}
+#next {
+	display:flex;
+	font-family:Germania One;
+	font-size:20px;
+	color:#555555;
+	padding:30px;
+	width:650px;
+	border-left:1px solid #999;
+	border-right:1px solid #999;
+	margin:auto;
 }
 #TechStack {
 	padding:15px;
